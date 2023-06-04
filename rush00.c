@@ -9,13 +9,11 @@ void rush(int x, int y)
                 if(a > 1 && a < x){
                     ft_putchar('-');
                 }
+                else if(b > 1 && b < y){
+                    ft_putchar('|');
+                }
                 else{
-                    if(b > 1 && b < y){
-                        ft_putchar('|');
-                    }
-                    else{
-                        ft_putchar('o');
-                    }
+                    ft_putchar('o');
                 }
             }
             else{
