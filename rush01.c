@@ -13,24 +13,24 @@ void rush(int x, int y)
             if(a == 1 || a == x || b == 1 || b == y){
 
                 if(a == 1 && b == 1 || b == y && a == x && b > 1 && a > 1){
-                    imprimir('/');
+                    ft_putchar('/');
                 }
                 else if(a == x && b == 1 || b == y && a == 1){
-                    imprimir('\\');
+                    ft_putchar('\\');
                 }
                 else {
-                    imprimir('*');
+                    ft_putchar('*');
                 }
 
 
             }
             else{
-                imprimir(' ');
+                ft_putchar(' ');
             }
             a++;
         }
 
-        imprimir('\n');
+        ft_putchar('\n');
         b++;
     }
     

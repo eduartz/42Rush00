@@ -7,23 +7,23 @@ void rush(int x, int y)
         while (a <= x){
             if(a == 1 || a == x || b == 1 || b == y){
                 if(a > 1 && a < x){
-                    imprimir('-');
+                    ft_putchar('-');
                 }
                 else{
                     if(b > 1 && b < y){
-                        imprimir('|');
+                        ft_putchar('|');
                     }
                     else{
-                        imprimir('o');
+                        ft_putchar('o');
                     }
                 }
             }
             else{
-                imprimir(' ');
+                ft_putchar(' ');
             }
             a++;
         }
-        imprimir('\n');
+        ft_putchar('\n');
         b++;
     }  
 }

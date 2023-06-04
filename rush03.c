@@ -11,22 +11,22 @@ void rush(int x, int y)
             if(a == 1 || a == x || b == 1 || b == y)
             {
                 if(a == 1 && b == 1 || a == 1 && b == y){
-                    imprimir('A');
+                    ft_putchar('A');
                 }
                 else if(a == x && b == 1 || a == x && b == y){
-                    imprimir('C');
+                    ft_putchar('C');
                 }
                 else{
-                    imprimir('B');
+                    ft_putchar('B');
                 }
             }
             else
             {
-                imprimir(' ');
+                ft_putchar(' ');
             }
             a++;
         }
-        imprimir('\n');
+        ft_putchar('\n');
         b++;
     }
        
