@@ -1,4 +1,4 @@
-#include <rush00.c>
+#include "rush00.c"
 int main()
 {
     rush(5,5);

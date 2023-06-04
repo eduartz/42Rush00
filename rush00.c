@@ -1,4 +1,4 @@
-#include <ft_putchar.c>
+#include "ft_putchar.c"
 void rush(int x, int y)
 {
     int b = 1;
